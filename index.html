@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Fhatuwani Website</title>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="favicon_io/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="favicon_io/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="favicon_io/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="favicon_io/site.webmanifest" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header class="navbar">
+			<div class="header-icon">
+				<img
+					src="assets/chat.png"
+					alt="An image of chat icon"
+					height="32px"
+					width="auto"
+				/>
+				<span class="header-text">Fabulus</span>
+			</div>
+			<div class="nav-icon">
+				<button class="menu-btn" onclick="toggleMenu()">
+					<img
+						src="assets/menus.png"
+						alt="An image of a hamburger menu"
+						width="auto"
+						height="32px"
+						class="menu-icon"
+					/>
+				</button>
+			</div>
+		</header>
+		<main>
+			<section id="homepage" class="home-container">
+				<article class="nav-links">
+					<nav>
+						<ul id="dropdownMenu" class="nav-container show">
+							<li><a href="#homepage">Home</a></li>
+							<li><a href="#about">About Us</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</nav>
+				</article>
+				<article class="home">
+					<div class="home-text">
+						<h1>Welcome to our website</h1>
+						<p>Always <span>Fabulus</span></p>
+						<a href="#about">Get Started</a>
+					</div>
+					<div></div>
+				</article>
+			</section>
+			<!-- About Us Section -->
+			<section id="about" class="about-us">
+				<h2>About Our <span>Technology</span> Business</h2>
+				<div class="about-container">
+					<div class="web-dev">
+						<img
+							src="assets/daniel-korpai-pKRNxEguRgM-unsplash.jpg"
+							alt="A photo about web development"
+							class="web"
+						/>
+						<p>
+							<span>Web development</span> fundamentals revolve around the core
+							technologies that power the modern internet: structure, style,
+							behavior, servers, and data. At the foundation is HTML (HyperText
+							Markup Language), which defines the structure and content of web
+							pages using elements like headings, paragraphs, links, and forms.
+							CSS (Cascading Style Sheets) controls the visual presentation,
+							including layout, colors, fonts, and responsive design for
+							different screen sizes. JavaScript adds interactivity and dynamic
+							behavior, enabling features like form validation, animations, and
+							real-time updates in the browser. Beyond the front end, web
+							development also includes server-side programming, databases, and
+							APIs, which handle data storage, authentication, and business
+							logic. Understanding how browsers communicate with servers through
+							HTTP, how domain names and hosting work, and how to ensure
+							accessibility, performance, and security are all essential
+							building blocks for becoming a proficient web developer.
+						</p>
+					</div>
+					<div class="software">
+						<p>
+							<span>Software development</span> is the structured process of
+							designing, building, testing, and maintaining applications that
+							solve real-world problems. It begins with gathering requirements
+							and planning system architecture, followed by writing code in
+							languages such as Python, Java, or C++. Developers apply
+							principles like modularity, abstraction, and version control to
+							create maintainable and scalable systems. Methodologies such as
+							Agile and DevOps promote iterative progress, collaboration, and
+							continuous integration to improve quality and speed. Beyond
+							coding, software development also involves debugging, performance
+							optimization, documentation, and long-term maintenance. A strong
+							foundation in algorithms, data structures, testing practices, and
+							secure coding ensures that software is reliable, efficient, and
+							adaptable to changing user needs and technological advancements.
+						</p>
+						<img
+							src="assets/christopher-gower-m_HRfLhgABo-unsplash.jpg"
+							alt="A photo about software development"
+						/>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<script src="script.js"></script>
+	</body>
+</html>
