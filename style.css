@@ -239,6 +239,12 @@ nav {
 	gap: 1em;
 	align-items: center;
 	justify-content: center;
+	border: 1px solid #333;
+	border-radius: 0.5em;
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -247,6 +253,7 @@ nav {
 	}
 	.about-us {
 		height: auto;
+		margin-bottom: 1.5em;
 	}
 
 	.about-us h2 {
