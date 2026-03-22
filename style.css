@@ -295,4 +295,8 @@ nav {
 	.grid-container {
 		grid-template-columns: 1fr;
 	}
+
+	.my-services h2 {
+		font-size: 2em;
+	}
 }
