@@ -1,6 +1,7 @@
 body {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	padding: var(--window-padding);
+	max-width: 1200px;
 }
 
 * {
