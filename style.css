@@ -1,7 +1,7 @@
 body {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	padding: var(--window-padding);
-	max-width: 1200px;
+	/* max-width: 1200px; */
 }
 
 * {
@@ -246,6 +246,70 @@ nav {
 	color: #fff;
 	padding: 1em;
 	text-align: center;
+}
+
+/* Contact US Page Styles */
+.contact-us{
+	width: 100%;
+	height: 100vh;
+}
+
+.contact-us h2{
+	text-align: center;
+	font-size: 2.5em;
+	padding: 1.5em;
+	margin-top: 1.5em;
+	border: 1px solid purple;
+	border-radius: 0.5em;
+	color: #fff;
+	background-color: purple;
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.form-container h3{
+	font-size: 1.5em;
+	text-align: center;
+	padding: 1.5em;
+}
+
+.form-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5em;
+	width: 100%;
+}
+
+.form-wrapper input{
+	width: 100%;
+	padding: 1em;
+	font-size: 1em;
+	border-radius: 0.5em;
+}
+
+.form-wrapper textarea {
+	width: 100%;
+	padding: 1em;
+	font-size: 1em;
+	border-radius: 0.5em;
+}
+
+.form-wrapper button{
+	width: 100%;
+	background-color: green;
+	border-radius: 0.5em;
+	border: none;
+	cursor: pointer;
+	padding: 1.5em;
+}
+
+.image-container img{
+	height: 60vh;
 }
 
 @media screen and (max-width: 768px) {
