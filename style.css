@@ -267,10 +267,8 @@ nav {
 }
 
 .flex-container{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 .form-container h3{
@@ -307,6 +305,8 @@ nav {
 	border: none;
 	cursor: pointer;
 	padding: 1.5em;
+	color: #fff;
+	font-size: 1em;
 }
 
 .image-container img{
@@ -367,7 +367,7 @@ nav {
 	}
 
 	.contact-us{
-		margin-top: 12em;
+		height: fit-content;
 	}
 
 	main{
@@ -375,6 +375,6 @@ nav {
 	}
 
 	.flex-container{
-		flex-direction: column;
+		grid-template-columns: 1fr;
 	}
 }
