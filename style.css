@@ -230,6 +230,7 @@ nav {
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
 	gap: 1.5em;
 	padding: 1.5em;
 }
@@ -249,68 +250,17 @@ nav {
 }
 
 /* Contact US Page Styles */
-.contact-us{
-	width: 100%;
+.my-contact {
 	height: 100vh;
+	width: 100%;
 	display: block;
 }
 
-.contact-us h2{
+.my-contact h2{
 	text-align: center;
-	font-size: 2.5em;
-	padding: 1.5em;
 	margin-top: 1.5em;
-	border: 1px solid purple;
-	border-radius: 0.5em;
-	color: #fff;
-	background-color: purple;
-}
-
-.flex-container{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
-.form-container h3{
-	font-size: 1.5em;
-	text-align: center;
-	padding: 1.5em;
-}
-
-.form-wrapper {
-	display: flex;
-	flex-direction: column;
-	gap: 1.5em;
-	width: 100%;
-}
-
-.form-wrapper input{
-	width: 100%;
 	padding: 1em;
-	font-size: 1em;
-	border-radius: 0.5em;
-}
-
-.form-wrapper textarea {
-	width: 100%;
-	padding: 1em;
-	font-size: 1em;
-	border-radius: 0.5em;
-}
-
-.form-wrapper button{
-	width: 100%;
-	background-color: green;
-	border-radius: 0.5em;
-	border: none;
-	cursor: pointer;
-	padding: 1.5em;
-	color: #fff;
-	font-size: 1em;
-}
-
-.image-container img{
-	height: 60vh;
+	font-size: 2em;
 }
 
 @media screen and (max-width: 768px) {
@@ -360,21 +310,14 @@ nav {
 
 	.grid-container {
 		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 	}
 
 	.my-services h2 {
 		font-size: 2em;
 	}
 
-	.contact-us{
-		height: fit-content;
-	}
-
-	main{
-		height: auto;
-	}
-
-	.flex-container{
-		grid-template-columns: 1fr;
+	.my-contact h2{
+		margin-top: 40em;
 	}
 }
